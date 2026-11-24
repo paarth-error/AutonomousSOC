@@ -1,0 +1,27 @@
+# Secrets & Credentials
+.env
+*.env
+*.pem
+*.key
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Dynamic log files & local containment state
+logs/*.log
+logs/blocked_ips.json
+!logs/.gitkeep

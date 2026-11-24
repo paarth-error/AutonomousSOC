@@ -1,0 +1,25 @@
+# ─────────────────────────────────────────────────────────────
+# SOC Automation — Python dependencies (pinned for reproducibility)
+# Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# PostgreSQL driver (binary wheel — no libpq build required)
+psycopg2-binary==2.9.10
+
+# Filesystem watcher used by ingest.py
+watchdog==4.0.1
+
+# Dashboard UI
+streamlit==1.35.0
+
+# Data manipulation & charts
+pandas==2.2.2
+plotly==7.1.0
+altair==5.5.0
+
+# Target app — mock financial web service
+Flask==3.0.3
+requests==2.32.3
+
+# Groq LLM client
+groq>=1.7.0
